@@ -8,9 +8,9 @@ WORM = (
     )
 
 def get_zoo():
-    rows = 14
+    rows = 7
     columns = 18
-    sparseness = 0.2s
+    sparseness = 0.2
 
     locations = np.random.rand(rows,columns)<sparseness
 
